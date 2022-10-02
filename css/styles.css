@@ -8,15 +8,20 @@ body {
   text-align: center;
 }
 
-
 .intro-section *{
+  padding: 5px;
   text-align: left;
 }
 
 header {
+  margin-bottom: 30px;
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+
+.nav-bar {
+  align-self: flex-end;
 }
 
 .nav-bar ul {
@@ -29,6 +34,7 @@ header {
 li > a {
   color: #000000;
   padding: 10px;
+  text-decoration: none;
 }
 
 footer {
