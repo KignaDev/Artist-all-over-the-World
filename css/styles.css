@@ -9,12 +9,10 @@ body {
 }
 
 footer {
-  background: url("images/footer-bg.svg") no-repeat center center absolute; 
+  background: url("images/footer-bg.svg") no-repeat center center; 
   -moz-background-size:100% 100%;
   -webkit-background-size:100% 100%;
   background-size:100% 100%;
-  height: auto;
-  min-height: 100%;
   top: 0;
   left: 0;
   color:  #EDF0F4;
