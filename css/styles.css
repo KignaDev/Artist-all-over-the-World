@@ -11,7 +11,7 @@ body {
 footer {
   background-image: url("images/footer-bagr.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   clear: both;
   min-height: 500px;
   background-position: center center;
