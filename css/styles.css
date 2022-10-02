@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-  background: url("images/footer-bg.svg");
+  background-image: url("images/footer-bg.svg");
   height: 30em;
   background-repeat: no-repeat;
   width: 100%;
