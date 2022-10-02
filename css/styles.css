@@ -1,5 +1,7 @@
 footer {
-  background-image: url("images/footer-background.png");
-  background-repeat: no-repeat;
-  background-size: 20%;
+  background: url("images/footer-background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
