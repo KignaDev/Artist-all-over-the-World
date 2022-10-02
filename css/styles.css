@@ -4,4 +4,6 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 1wv;
+  height: inherit;
 }
