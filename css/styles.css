@@ -17,7 +17,11 @@ header {
 .nav-bar ul {
   display: flex;
   flex-direction: row;
-  justify-self: flex-end;
+  justify-item: flex-end;
+}
+
+.welcome-section {
+  text-align: left;
 }
 
 footer {
