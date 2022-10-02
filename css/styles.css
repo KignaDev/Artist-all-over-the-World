@@ -16,4 +16,10 @@ footer {
   background-size: 100% auto;
   top:0;
   left:0;
+  color:  #EDF0F4;
+}
+
+.footer-end {
+  background-color: #000000;
+  color: #9FAFC1;
 }
