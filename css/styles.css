@@ -19,7 +19,7 @@ footer {
   padding: 30px 0 0;
 }
 
-footer .bg {
+.bg {
   position: fixed;
   display: none;
   width: 100%;
