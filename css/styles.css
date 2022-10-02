@@ -13,11 +13,8 @@ footer {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50% 50%;
-  overflow: hidden;
-  width: 100vw;
-  height: 330px;
-  left: 0;
-  bottom:0;
+  width: auto;
+  height: auto;
   padding: 30px 0 0;
 }
 
