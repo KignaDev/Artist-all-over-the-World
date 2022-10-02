@@ -13,8 +13,8 @@ footer {
   background-image: url("images/footer-bagr.svg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% auto;
-  overflow: auto;
+  background-size: auto auto;
+  overflow: hidden;
   width: 100vw;
   height: 330px;
   left: 0;
