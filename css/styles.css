@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-  position: absolute;
+  position: bottom;
   background-image: url("images/footer-bagr.svg");
   background-repeat: no-repeat;
   background-position: center center;
