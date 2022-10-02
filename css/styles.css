@@ -17,11 +17,13 @@ header {
 .nav-bar ul {
   display: flex;
   flex-direction: row;
+  gap: 10px;
   list-style-type: none;
 }
 
 li > a {
   color: #000000;
+  padding: 10px;
 }
 
 .intro-section {
