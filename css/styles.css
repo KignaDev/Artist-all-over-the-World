@@ -12,6 +12,8 @@ footer {
   background-image: url("images/footer-bagr.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  clear: both;
+  max-height: auto;
   background-position: center center;
   padding: 30px 0 0;
 }
