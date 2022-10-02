@@ -5,7 +5,6 @@
 
 body {
   font-family: Helvetica;
-  text-align: center;
 }
 
 footer {
@@ -17,6 +16,7 @@ footer {
   top:0;
   left:0;
   color:  #EDF0F4;
+  text-align: center;
 }
 
 .footer-end {
