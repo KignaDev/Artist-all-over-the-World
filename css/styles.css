@@ -8,6 +8,12 @@ body {
   text-align: center;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 footer {
   background-image: url("images/footer-bagr.svg");
   background-repeat: no-repeat;
