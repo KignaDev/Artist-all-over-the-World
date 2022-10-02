@@ -17,9 +17,14 @@ header {
 .nav-bar ul {
   display: flex;
   flex-direction: row;
+  list-style-type: none;
 }
 
-.welcome-section {
+li > a {
+  color: #000000;
+}
+
+.intro-section {
   text-align: left;
 }
 
