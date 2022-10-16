@@ -6,6 +6,7 @@
 body {
   font-family: Helvetica;
   text-align: center;
+  background-color: #919396;
 }
 
 .intro-section *{
@@ -38,16 +39,20 @@ li > a {
 }
 
 footer {
-  background-image: url("images/footer-bagr.svg");
+  background-color: #919396;
+  background-image: url("../images/footer-bagr.svg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 50% 50%;
+  background-position: center 60px;
   width: auto;
   height: auto;
   padding: 30px 0 0;
 }
 
 .footer-links {
+  padding-top: 100px;
+  text-align: center;
+  color:rgb(92.941177%,94.117647%,95.686275%);
   padding: 20px 5px;
   display: flex;
   flex-direction: row;
@@ -66,6 +71,8 @@ footer {
 
 .column > a {
   display: block;
+  color: rgb(92.941177%,94.117647%,95.686275%);
+  text-decoration: none;
   margin: 5px 0px;
   padding: 10px 0px;
   text-align: left;
