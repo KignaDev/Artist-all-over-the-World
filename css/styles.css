@@ -130,6 +130,38 @@ header {
   border-radius: 20px;
 }
 
+.latest-artists {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.artist-card {
+  border-radius: 20px;
+  padding: 5px;
+  transition: 0.8s;
+}
+
+.artist-card img {
+  height: 100px;
+  max-width: 70%;
+  margin-bottom: 20px;
+}
+
+.artist-card h3 {
+  margin-bottom: 5px;
+}
+
+.artist-card p {
+  margin-bottom: 15px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.artist-card:hover {
+  background-color: #478fb6;
+}
+
 
 footer {
   background-image: url("../images/footer-background.svg");
