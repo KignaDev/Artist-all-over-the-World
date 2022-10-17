@@ -123,6 +123,10 @@ header {
   border-top: none;
 }
 
+#Music {
+  display:block;
+}
+
 .latest-artists-section {
   margin: 20px;
   background-color: #000000;
