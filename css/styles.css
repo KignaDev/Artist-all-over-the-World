@@ -51,29 +51,24 @@ header {
   width: 100%;
 }
 
-.welcome-section h1 {
+.welcome-section .welcome-text {
   position: absolute;
-  top: 50px;
+  top: 20%;
   left: 20px;
 }
 
-.welcome-section p {
-  position: absolute;
-  top: 130px;
-  left: 20px;
+.welcome-section .welcome-text p {
+  margin: 0 0 30px 0;
 }
 
-.welcome-section btn {
+.welcome-section .welcome-text btn {
   padding: 10px;
   background-color: #478fb6;
-  position: absolute;
-  top: 200px;
-  left: 20px;
   border-radius: 20px;
   box-shadow: 2px 2px #999999;
 }
 
-.welcome-section btn:hover {
+.welcome-section .welcome-text btn:hover {
   color: #ffffff;
   font-weight: 500;
   box-shadow: 0px 0px #999999;
