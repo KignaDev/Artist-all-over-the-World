@@ -78,7 +78,7 @@ footer {
   color: rgb(92.941177%,94.117647%,95.686275%);
   text-decoration: none;
   margin: 5px 0px;
-  padding: 10px 0px;
+  padding: 5px 0px;
   text-align: left;
 }
 
@@ -86,6 +86,10 @@ footer {
   padding-bottom: 10px;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.social-media-icons {
+  margin-left: 10px;
 }
 
 .footer-end {
