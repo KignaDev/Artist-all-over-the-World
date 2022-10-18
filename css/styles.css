@@ -286,3 +286,39 @@ footer {
   background-color: #000000;
   color: #9FAFC1;
 }
+
+
+/*About Us Page*/
+.header-section h1{
+  margin: 50px 5px;
+  text-align: center;
+  text-decoration: overline underline dashed #478fb6;
+}
+
+.developers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.developer {
+  width: 40%;
+  max-width: 500px;
+  padding: 20px;
+  display: block;
+  border-radius: 20px;
+  background-color: #478fb6;
+  box-shadow: 2px 2px #999999;
+}
+
+.developer:hover {
+  background-color: #9FAFC1;
+  box-shadow: 0px 0px #999999;
+
+}
+
+.developer p, .developer ul {
+  margin-top: 10px;
+  text-align: left;
+}
