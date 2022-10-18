@@ -16,6 +16,20 @@ body {
   margin: 10px 0px 20px 0px;
 }
 
+.body-btn {
+  padding: 15px;
+  background-color: #478fb6;
+  border-radius: 20px;
+  box-shadow: 2px 2px #999999;
+}
+
+.body-btn:hover {
+  color: #ffffff;
+  font-weight: 500;
+  box-shadow: 0px 0px #999999;
+  cursor: pointer;
+}
+
 .intro-section *{
   padding: 5px;
   text-align: left;
@@ -69,20 +83,6 @@ header {
   margin: 0 0 30px 0;
 }
 
-.welcome-section .welcome-text btn {
-  padding: 10px;
-  background-color: #478fb6;
-  border-radius: 20px;
-  box-shadow: 2px 2px #999999;
-}
-
-.welcome-section .welcome-text btn:hover {
-  color: #ffffff;
-  font-weight: 500;
-  box-shadow: 0px 0px #999999;
-  cursor: pointer;
-}
-
 .tab {
   overflow: hidden;
   border: 1px solid #323232;
@@ -121,6 +121,19 @@ header {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top: none;
+  -webkit-animation: fadeEffect 1.5s;
+  animation: fadeEffect 1.5s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 #Music {
@@ -164,6 +177,51 @@ header {
 
 .artist-card:hover {
   background-color: #478fb6;
+}
+
+.category-card-container {
+  margin-top: 30px;
+  max-width: 1000px;
+  max-height: 1000px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+}
+
+.category-card-container .category-card {
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: left;
+  padding: 10px 5px;
+}
+
+.category-card-container .category-card .top-layer {
+  position: absolute;
+  background-color: rgb(176, 195, 201);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.category-card-container .category-card .top-layer:hover {
+  display: none;
+}
+
+.category-card-container .category-card .top-layer div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
