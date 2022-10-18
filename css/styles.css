@@ -224,6 +224,9 @@ header {
   transform: translate(-50%, -50%);
 }
 
+.contact-us-section * {
+  margin-bottom: 25px;
+}
 
 footer {
   background-image: url("../images/footer-background.svg");
